@@ -56,7 +56,7 @@ function test(){
             xS = tempS
             xE = tempL
 
-            temps = Math.min(yS, yE);
+            tempS = Math.min(yS, yE);
             tempL = Math.max(yS, yE);
 
             yS = tempS
@@ -129,7 +129,7 @@ function test(){
         }
     }
 
-    for(var x = 0; x < "1000" ; x++){
+    for(var x = 0; x < 1000 ; x++){
         for(var y = 0; y < 1000 ; y++){
             ans += lightGrid[x][y];
         }
